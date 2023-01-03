@@ -25,6 +25,6 @@ void DiffEl(double[] newArray)
         if (newArray[i] > newArray[indexMax]) indexMax = i;
         if (newArray[i] < newArray[indexMin]) indexMin = i;
     }
-    Console.WriteLine($"Разница Max-Min = {Math.Round(newArray[indexMax] - newArray[indexMin], 2)}");
+    Console.WriteLine($"Разница Max-Min = {Math.Round(newArray[indexMax] - newArray[indexMin], 4)}");
 }
 DiffEl(NewArray());
